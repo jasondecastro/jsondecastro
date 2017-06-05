@@ -1,0 +1,110 @@
+html, body {
+  background: linear-gradient(#FD8C71, #FD7CA4);
+  height: 100vh;
+  overflow: hidden;
+  font-family: 'PT Sans', sans-serif;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+.overlay {
+  background-color: #fff;
+  margin: 20px;
+  width: calc(100vw - 40px);
+  height: calc(100vh - 40px);
+  overflow: hidden;
+}
+
+.overlay-container {
+  padding: 50px;
+}
+
+.overlay-container-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.overlay-container-nav-links {
+  color: #525252;
+  font-size: 19px;
+}
+
+.overlay-container-nav-links > * {
+  margin-right: 38px;
+}
+
+.overlay-container-nav-links a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.active-link a {
+  background: linear-gradient(#FD8C71, #FD7CA4);
+  font-weight: 800;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.overlay-container-nav-links a:hover {
+  background: linear-gradient(#FD8C71, #FD7CA4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.overlay-container-nav-logo {
+  color: #FD8C71;
+  margin-top: -15px;
+  font-size: 42px;
+}
+
+.overlay-container-content {
+  display: flex;
+  justify-content: center;
+  margin: 17% 0;
+}
+
+.overlay-container-content-about {
+  display: flex;
+  flex-direction: column;
+  margin: 10% 0;
+  align-items: center;
+}
+
+.overlay-container-content-header {
+  color: #191919;
+  font-size: 38px;
+  width: 630px;
+}
+
+.overlay-container-content-header a {
+  color: inherit;
+  text-decoration: none;
+  padding-bottom: 3px;
+  border-bottom: 3px solid black;
+}
+
+.overlay-container-content-header a:hover {
+  background: linear-gradient(#FD8C71, #FD7CA4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.overlay-container-content-location {
+  align-self: flex-end;
+  color: #525252;
+  opacity: .7;
+  transform: rotate(90deg) translateY(-270px);
+}
+
+.overlay-container-content-location-emph {
+  font-weight: 800;
+}
